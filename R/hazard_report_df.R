@@ -1,0 +1,18 @@
+#' @title hazard_report_df
+#'
+#' @description This data contains the table from Annex 6 page 72 of the Hazard 
+#'   Definition and Classification Review Technical Report published by the 
+#'   UN Office for Disaster Risk Reduction (2020)    
+#'   
+#'@usage data(hazard_report_df)
+#'
+#' @format A tibble with 303 observations and 3 variables
+#' \describe{
+#'   \item{hazard_type}{The broad category of the disaster.Hazards may be 
+#'     natural, anthropogenic or socionatural in origin}
+#'   \item{hazard_cluster}{The subcategory of the disaster, it is more specific
+#'   than hazard types.}
+#'   \item{Specific hazard}{It is the related to the hazard cluster and 
+#'   specifically names the type of disaster.}
+#' }
+"hazard_report_df"
